@@ -1,0 +1,50 @@
+export const Palette = {
+  forest: '#244B3A',
+  sage: '#76A88A',
+  sageLight: '#E3EDE7',
+  cream: '#F4F5EF',
+  charcoal: '#202923',
+  white: '#FFFFFF',
+  card: '#FFFFFF',
+  cardBorder: '#E5E8DF',
+  textMuted: '#67726A',
+  textSecondary: '#4A554E',
+  warning: '#D97706',
+  warningLight: '#FEF3C7',
+  danger: '#DC2626',
+  dangerLight: '#FEE2E2',
+  success: '#15803D',
+  successLight: '#DCFCE7',
+  info: '#2563EB',
+  infoLight: '#DBEAFE',
+};
+
+export const Colors = {
+  light: {
+    primary: Palette.forest,
+    secondary: Palette.sage,
+    background: Palette.cream,
+    card: Palette.card,
+    border: Palette.cardBorder,
+    text: Palette.charcoal,
+    textSecondary: Palette.textSecondary,
+    textMuted: Palette.textMuted,
+    tint: Palette.forest,
+    tabIconDefault: '#8B958F',
+    tabIconSelected: Palette.forest,
+  },
+  dark: {
+    primary: Palette.sage,
+    secondary: Palette.forest,
+    background: Palette.cream, // Mantener tema claro por especificación
+    card: Palette.card,
+    border: Palette.cardBorder,
+    text: Palette.charcoal,
+    textSecondary: Palette.textSecondary,
+    textMuted: Palette.textMuted,
+    tint: Palette.forest,
+    tabIconDefault: '#8B958F',
+    tabIconSelected: Palette.forest,
+  },
+};
+
